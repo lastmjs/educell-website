@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
 import { Header } from '../components/Header';
-import { Intro } from '../components/Intro';
-import { Work } from '../components/Work';
+import { Donate } from '../components/Donate';
 import { Contact } from '../components/Contact';
 import { About } from '../components/About';
 import classNames from 'classnames';
@@ -22,8 +21,7 @@ export default class Index extends React.Component {
       main: true,
       footer: true,
       modal: {
-        intro: false,
-        work: false,
+        donate: false,
         about: false,
         contact: false,
       }
@@ -79,13 +77,12 @@ export default class Index extends React.Component {
     			<div id="wrapper">
             <Header class={this.state.header} transitionHandler={(name) => this.startArticleTransition(name)}/>
     					<div id={mainId} className={mainClass}>
-                <Intro class={this.state.modal.intro} endTransitionHandler={(name) => this.endArticleTransition(name)} />
-                <Work class={this.state.modal.work} endTransitionHandler={(name) => this.endArticleTransition(name)} />
                 <About class={this.state.modal.about} endTransitionHandler={(name) => this.endArticleTransition(name)} />
+                <Donate class={this.state.modal.donate} endTransitionHandler={(name) => this.endArticleTransition(name)} />
                 <Contact class={this.state.modal.contact} endTransitionHandler={(name) => this.endArticleTransition(name)} />
               </div>
     					<footer id={footerId} className={footerClass}>
-    						<p className="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    						<p className="copyright">&copy; Educell. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
     					</footer>
     			</div>
     			<div id="bg"></div>

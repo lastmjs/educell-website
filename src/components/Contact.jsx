@@ -18,30 +18,8 @@ export class Contact extends React.Component{
     return (
       <article id="contact" className={contactClass}>
         <h2 className="major">Contact</h2>
-        <form method="post" action="#">
-          <div className="field half first">
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" />
-          </div>
-          <div className="field half">
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" />
-          </div>
-          <div className="field">
-            <label for="message">Message</label>
-            <textarea name="message" id="message" rows="4"></textarea>
-          </div>
-          <ul className="actions">
-            <li><input type="submit" value="Send Message" className="special" /></li>
-            <li><input type="reset" value="Reset" /></li>
-          </ul>
-        </form>
-        <ul className="icons">
-          <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-          <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-          <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-          <li><a href="#" className="icon fa-github"><span class="label">GitHub</span></a></li>
-        </ul>
+        <p>If you have questions or want to discuss possible solutions for your students, you can contact Cade Dopp at: <br /></p>
+        <a href="mailto:educell@cadedopp.com" target="_blank"> educell@cadedopp.com</a>
         <div onClick={() => this.props.endTransitionHandler('contact')} className="close">Close</div>
       </article>
     );
