@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-import classPhoto from '../images/class.jpg'
+// import classPhoto from '../images/class.jpg'
 import cade from '../images/cade.png';
 import chloe from '../images/chloe.png';
 import jordan from '../images/jordan.png';
@@ -25,7 +25,6 @@ export class About extends React.Component{
     return (
       <article id="about" className={aboutClass}>
         <h2 className="major">About</h2>
-        <span className="image main"><img src={classPhoto} alt="" /></span>
         <h3>Mission</h3>
         <p>Our mission is to provide every child and teen in the world an education that will enable them to to become self-reliant adults.</p>
         <h3>Activities</h3>

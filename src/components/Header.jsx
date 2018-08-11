@@ -20,9 +20,6 @@ export class Header extends React.Component{
 
     return (
       <header id={headerId} className={headerClass}>
-        <div className="logo">
-          <span className="icon fa-diamond"></span>
-        </div>
         <div className="content">
           <div className="inner">
             <h1>Educell</h1>
