@@ -1,11 +1,7 @@
 import React from 'react';
 import classNames from 'classnames';
-// import classPhoto from '../images/class.jpg'
-import cade from '../images/cade.png';
-import chloe from '../images/chloe.png';
-import jordan from '../images/jordan.png';
 
-export class About extends React.Component{
+export class Projects extends React.Component{
 
   constructor(props) {
     super(props);
@@ -24,19 +20,28 @@ export class About extends React.Component{
 
     return (
       <article id="about" className={aboutClass}>
-        <h2 className="major">About</h2>
-        <h3>Mission</h3>
-        <p>Our mission is to provide every child and teen in the world an education that will enable them to become self-reliant adults.</p>
-        <h3>Activities</h3>
-        <p>We accomplish our mission by providing educational consulting to NGOs, bussinesses, and governments who are seeking to offer affordable education for students. We help our partners to train teachers, integrate educational technology, and implement learning management systems.</p>
-        <h3>Team</h3>
-        <p>Our team is comprised of graduates from Brigham Young University with expertise in education and technology.</p>
-        <div style={imageContainerStyle}>
-            <span className="image"><img src={cade} height="209" /></span>
-            <span className="image"><img src={chloe} height="209" /></span>
-            <span className="image"><img src={jordan} height="209" /></span>
-        </div>
-        <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
+        <h2 className="major">Projects</h2>
+        
+<h3>Sample Projects</h3>
+
+  <h4>Ghana Make A Difference</h4>
+
+    <p>
+      <a href="https://www.ghanamakeadifference.org/" target="_blank">Ghana Make A Difference</a> (GMAD) is an NGO that provides housing and basic necessities for children who have been rescued from human trafficking, abuse, and neglect.
+      Disatisfied with the community school, GMAD constructed a new school to serve their children and others in the community.
+      The GMAD Accademy of Learning employed three full-time teachers, a special-needs teacher, and a vocational trainer.
+      They served approximately 60 students. Teachers and students initially had limited competency with technology like computers and tablets.
+      One of the unique challenges at GMAD is that students typically spend one year in the program, and enter and exit the program at unpredictable times.
+    </p>
+
+    <p>
+      We partnered with GMAD to (a) design a custom curriculum that focused on literacy and math,
+      (b) create assessments to help determine student needs upon enrollment,
+      (c) integrate low-cost tablets to enable automated assessments and delivery of personalized instruction,
+      and (d) setup a learning management system to track student progress and organize instructional materials.
+    </p>
+
+        <div onClick={() => this.props.endTransitionHandler('projects')} className="close">Close</div>
       </article>
     );
   }
