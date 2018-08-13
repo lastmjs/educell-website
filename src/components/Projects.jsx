@@ -38,8 +38,9 @@ export class Projects extends React.Component{
       <ol>
         <li> design a custom curriculum that focused on literacy and math </li>
         <li> create assessments to help determine student needs upon enrollment </li>
-      <li> integrate low-cost tablets to enable automated assessments and delivery of personalized instruction</li>
-      <li> setup a learning management system to track student progress and organize instructional materials </li>
+        <li> integrate low-cost tablets to enable automated assessments and delivery of personalized instruction</li>
+        <li> setup a learning management system to track student progress and organize instructional materials </li>
+      </ol>
     </p>
 
         <div onClick={() => this.props.endTransitionHandler('projects')} className="close">Close</div>
