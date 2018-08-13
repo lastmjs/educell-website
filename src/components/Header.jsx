@@ -29,7 +29,7 @@ export class Header extends React.Component{
         <nav>
           <ul>
           <li><a href="#about" onClick={() => this.props.transitionHandler('about')}>About</a></li>
-            <li><a href="#projects" onClick={() => this.props.transitionHandler('about')}>Projects</a></li>
+            <li><a href="#projects" onClick={() => this.props.transitionHandler('Projects')}>Projects</a></li>
             <li><a href="#donate" onClick={() => this.props.transitionHandler('donate')}>Donate</a></li>
             <li><a href="#contact" onClick={() => this.props.transitionHandler('contact')}>Contact</a></li>
           </ul>
