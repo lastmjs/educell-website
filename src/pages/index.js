@@ -24,6 +24,7 @@ export default class Index extends React.Component {
       modal: {
         donate: false,
         about: false,
+        projects: false,
         contact: false,
       }
     }
