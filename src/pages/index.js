@@ -5,7 +5,7 @@ import { Header } from '../components/Header';
 import { Donate } from '../components/Donate';
 import { Contact } from '../components/Contact';
 import { About } from '../components/About';
-import { Projects } from '../components/About';
+import { Projects } from '../components/Projects';
 import classNames from 'classnames';
 
 import '../styles/main.css';
