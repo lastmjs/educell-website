@@ -8,7 +8,7 @@ export class Projects extends React.Component{
   }
 
   render() {
-    var aboutClass = classNames({
+    var projectsClass = classNames({
       'active': this.props.class,
       'dimensions-show': this.props.class,
       'dimensions-hide': !this.props.class,
@@ -19,7 +19,7 @@ export class Projects extends React.Component{
     };
 
     return (
-      <article id="about" className={aboutClass}>
+      <article id="projects" className={projectsClass}>
         <h2 className="major">Projects</h2>
         
 <h3>Sample Projects</h3>
