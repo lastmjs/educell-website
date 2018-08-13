@@ -25,7 +25,7 @@ export class About extends React.Component{
     return (
       <article id="about" className={aboutClass}>
         <h2 className="major">About</h2>
-    <h1>Guiding Beliefs</h1>
+    <h3>Guiding Beliefs</h3>
 
 <p>
 The Creator gave each of us life on this Earth so that we could learn to live happily, as He does.
@@ -35,7 +35,7 @@ Gaining vision and power is the heart of education.
 </p>
 
 
-<h1>Mission</h1>
+<h3>Mission</h3>
 
 <p>
 Our mission is to provide every child on this earth with an opportunity to gain knowledge about the world,
@@ -43,7 +43,7 @@ power to act in it,
 and desire to be self-reliant and compassionate.
 </p>
 
-<h1>Activities</h1>
+<h3>Activities</h3>
 
 <p>
 We help teachers in Africa use low-cost technology to improve outcomes in their classrooms.
