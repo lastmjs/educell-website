@@ -5,6 +5,7 @@ import { Header } from '../components/Header';
 import { Donate } from '../components/Donate';
 import { Contact } from '../components/Contact';
 import { About } from '../components/About';
+import { Projects } from '../components/About';
 import classNames from 'classnames';
 
 import '../styles/main.css';
@@ -78,6 +79,7 @@ export default class Index extends React.Component {
             <Header class={this.state.header} transitionHandler={(name) => this.startArticleTransition(name)}/>
     					<div id={mainId} className={mainClass}>
                 <About class={this.state.modal.about} endTransitionHandler={(name) => this.endArticleTransition(name)} />
+                <Projects class={this.state.modal.about} endTransitionHandler={(name) => this.endArticleTransition(name)} /> 
                 <Donate class={this.state.modal.donate} endTransitionHandler={(name) => this.endArticleTransition(name)} />
                 <Contact class={this.state.modal.contact} endTransitionHandler={(name) => this.endArticleTransition(name)} />
               </div>
