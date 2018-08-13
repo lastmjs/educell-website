@@ -25,12 +25,33 @@ export class About extends React.Component{
     return (
       <article id="about" className={aboutClass}>
         <h2 className="major">About</h2>
-        <h3>Mission</h3>
-        <p>Our mission is to provide every child and teen in the world an education that will enable them to become self-reliant adults.</p>
-        <h3>Activities</h3>
-        <p>We accomplish our mission by providing educational consulting to NGOs, bussinesses, and governments who are seeking to offer affordable education for students. We help our partners to train teachers, integrate educational technology, and implement learning management systems.</p>
-        <h3>Team</h3>
-        <p>Our team is comprised of graduates from Brigham Young University with expertise in education and technology.</p>
+    <h1>Guiding Beliefs</h1>
+
+<p>
+The Creator gave each of us life on this Earth so that we could learn to live happily, as He does.
+Our capacity for happiness increases with our capacity to love.
+Our capacity to love increases as we learn to see things as they really are, and as we acquire the power to act accordingly.
+Gaining vision and power is the heart of education.
+</p>
+
+
+<h1>Mission</h1>
+
+<p>
+Our mission is to provide every child on this earth with an opportunity to gain knowledge about the world,
+power to act in it,
+and desire to be self-reliant and compassionate.
+</p>
+
+<h1>Activities</h1>
+
+<p>
+We help teachers in Africa use low-cost technology to improve outcomes in their classrooms.
+Our partner-teachers leverage digital assessments to instantly understand student needs,
+and multi-media instructional materials to personalize instruction for every student.
+We install the technology, train the teachers, and provide the instructional material.
+</p>
+
         <div style={imageContainerStyle}>
             <span className="image"><img src={cade} height="209" /></span>
             <span className="image"><img src={chloe} height="209" /></span>
