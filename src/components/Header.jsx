@@ -23,7 +23,7 @@ export class Header extends React.Component{
         <div className="content">
           <div className="inner">
             <h1>Educell</h1>
-            <p>Solving educational challenges in remote and low-resource environments.</p>
+            <p>Solving educational challenges in remote and low-resource environments</p>
           </div>
         </div>
         <nav>
