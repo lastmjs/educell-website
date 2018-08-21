@@ -59,7 +59,7 @@ We install the technology, train the teachers, and provide the instructional mat
 
       <div class="image_text_row">
         <div class="image_row">
-        <img src="images/cade.png" width="100%" />
+        <img src={cade} width="100%" />
         </div>
 
         <p class="text_row">
@@ -71,7 +71,7 @@ We install the technology, train the teachers, and provide the instructional mat
 
       <div class="image_text_row">
         <div class="image_row">
-        <img src="images/chloe.png" width="100%" />
+        <img src={chloe} width="100%" />
         </div>
 
         <p class="text_row">
@@ -87,7 +87,7 @@ We install the technology, train the teachers, and provide the instructional mat
       <div class="image_text_row">
 
         <div class="image_row">
-        <img src="images/jordan.png" width="100%" />
+        <img src={jordan} width="100%" />
         </div>
 
         <p class="text_row">
