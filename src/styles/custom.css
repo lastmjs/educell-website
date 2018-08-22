@@ -21,5 +21,5 @@
 .bigimage {
   padding-left: 20vw;
   padding-right: 20vw;
-  min-height: 200px;
+  min-width: 250px;
 }
