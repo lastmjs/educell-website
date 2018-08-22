@@ -17,3 +17,32 @@
 .dimensions-show {
   display: block;
 }
+
+.image_text_column{
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-content: flex-start;
+  text-align: left;
+}
+
+.image_text_row{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.image_row{
+padding: 10px;
+max-width: 200px;
+min-width: 100px;
+
+}
+
+.text_row{
+  max-width: 70vw;
+  padding: 10px;
+}
