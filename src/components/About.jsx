@@ -52,11 +52,53 @@ and multi-media instructional materials to personalize instruction for every stu
 We install the technology, train the teachers, and provide the instructional material.
 </p>
 
-        <div style={imageContainerStyle}>
-            <span className="image"><img src={cade} height="209" /></span>
-            <span className="image"><img src={chloe} height="209" /></span>
-            <span className="image"><img src={jordan} height="209" /></span>
+<h3>Team</h3>
+    <div class="image_text_column">
+
+    <h4>Education</h4>
+
+      <div class="image_text_row">
+        <div class="image_row">
+        <img src={cade} width="100%" />
         </div>
+
+        <p class="text_row">
+        Cade Dopp has a master’s degree in Instructional Psychology and Technology (Ed Tech). He has worked on two ed tech projects in Ghana and has worked with students, teachers, and government. He has also worked as a project manager, teacher, and wilderness guide. 
+        </p>
+      </div>
+
+    <h4>Marketing</h4>
+
+      <div class="image_text_row">
+        <div class="image_row">
+        <img src={chloe} width="100%" />
+        </div>
+
+        <p class="text_row">
+          Chloe Saunders studies Marketing and Social Innovation at BYU.
+          She has spent time in Japan, India, and Thailand.
+          She has experience with research, mentoring, and writing.
+          Education is her passion.
+        </p>
+      </div>
+
+    <h4>Technology</h4>
+
+      <div class="image_text_row">
+
+        <div class="image_row">
+        <img src={jordan} width="100%" />
+        </div>
+
+        <p class="text_row">
+          Jordan Last graduated from Brigham Young University with a BS in Computer Science.
+          He is a co-founder of an edtech startup and has been deeply involved in edtech, open source, and web development for years.
+          He believes in the web platform as the most powerful force for good in technology.
+        </p>
+      </div>
+    </div>
+        
+        
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
       </article>
     );
