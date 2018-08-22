@@ -27,7 +27,7 @@ export class Projects extends React.Component{
   <h3>Ghana Make A Difference</h3>
         
     <div class="bigimage">
-      <img src[gmad] width="100%" />
+      <img src={gmad} width="100%" />
     </div>
 
     <p>
