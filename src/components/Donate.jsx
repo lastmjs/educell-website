@@ -20,8 +20,8 @@ export class Donate extends React.Component{
         <h2 className="major">Donate</h2>
         <span className="image main"><img src="images/pic01.jpg" alt="" /></span>
         <p>We are waiting to get permission from the state of Utah before we can accept donations.</p>
-        <p> <a href='../images/501c3approved.pdf' target="_blank">501(c)(3) determination letter</a></p>
-        <p> <a href='../images/educellarticles.pdf' target="_blank">Articles of incorporation</a></p>
+        <p> <a href='../501-c-3-approved.pdf' target="_blank">501(c)(3) determination letter</a></p>
+        <p> <a href='../educell-articles.pdf' target="_blank">Articles of incorporation</a></p>
         <div onClick={() => this.props.endTransitionHandler('donate')} className="close">Close</div>
       </article>
     );
