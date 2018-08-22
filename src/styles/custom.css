@@ -17,3 +17,8 @@
 .dimensions-show {
   display: block;
 }
+
+.bigimage {
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
