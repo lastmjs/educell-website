@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
+import gmad from '../images/gmad.jpg';
 
 export class Projects extends React.Component{
 
@@ -24,6 +25,10 @@ export class Projects extends React.Component{
        
 
   <h3>Ghana Make A Difference</h3>
+        
+    <div class="bigimage">
+      <img src={gmad} width="100%" />
+    </div>
 
     <p>
       <a href="https://www.ghanamakeadifference.org/" target="_blank">Ghana Make A Difference</a> (GMAD) is an NGO that provides housing and basic necessities for children who have been rescued from human trafficking, abuse, and neglect.
