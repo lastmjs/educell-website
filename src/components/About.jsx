@@ -18,6 +18,10 @@ export class About extends React.Component{
       'dimensions-hide': !this.props.class,
     });
     
+        var footerClass = classNames({
+      'dimensions-hide': !this.state.footer,
+    });
+    
       var footerId = classNames({
       'footer': this.state.footer,
     });
