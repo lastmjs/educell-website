@@ -99,7 +99,7 @@ We install the technology, train the teachers, and provide the instructional mat
     </div>
         
      	<footer>
-    						<p className="copyright">&copy; Educell. Design: <a href="https://html5up.net">HTML5 UP</a>. *Photo cred #travellingshepards</p>
+    						<p className="popfooter">*Photo cred #travellingshepards</p>
     					</footer>
         
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
