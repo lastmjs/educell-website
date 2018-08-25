@@ -98,7 +98,9 @@ We install the technology, train the teachers, and provide the instructional mat
       </div>
     </div>
         
-        
+      <footer id={footerId} className={footerClass}>
+    						<p *Photo cred #travellingshepards</p>
+    					</footer>  
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
       </article>
     );
