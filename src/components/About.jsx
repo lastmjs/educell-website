@@ -17,6 +17,10 @@ export class About extends React.Component{
       'dimensions-show': this.props.class,
       'dimensions-hide': !this.props.class,
     });
+    
+      var footerId = classNames({
+      'footer': this.state.footer,
+    });
 
     const imageContainerStyle = {
         textAlign: 'center'
