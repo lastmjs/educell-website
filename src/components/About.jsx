@@ -98,9 +98,10 @@ We install the technology, train the teachers, and provide the instructional mat
       </div>
     </div>
         
-      <footer id={footerId} className={footerClass}>
-    						< pclassName="copyright"> *Photo cred #travellingshepards</p>
-    					</footer>  
+     	<footer id={footerId} className={footerClass}>
+    						<p className="copyright">&copy; Educell. Design: <a href="https://html5up.net">HTML5 UP</a>. *Photo cred #travellingshepards</p>
+    					</footer>
+        
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
       </article>
     );
