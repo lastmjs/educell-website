@@ -17,14 +17,6 @@ export class About extends React.Component{
       'dimensions-show': this.props.class,
       'dimensions-hide': !this.props.class,
     });
-    
-        var footerClass = classNames({
-      'dimensions-hide': !this.state.footer,
-    });
-    
-      var footerId = classNames({
-      'footer': this.state.footer,
-    });
 
     const imageContainerStyle = {
         textAlign: 'center'
@@ -106,7 +98,7 @@ We install the technology, train the teachers, and provide the instructional mat
       </div>
     </div>
         
-     	<footer id={footerId} className={footerClass}>
+     	<footer>
     						<p className="copyright">&copy; Educell. Design: <a href="https://html5up.net">HTML5 UP</a>. *Photo cred #travellingshepards</p>
     					</footer>
         
