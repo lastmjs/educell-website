@@ -21,7 +21,12 @@ export class Projects extends React.Component{
     return (
       <article id="projects" className={projectsClass}>
         <h2 className="major">Projects</h2>
-       
+  <p>
+    <a href="http://ec2-52-88-223-6.us-west-2.compute.amazonaws.com/moodle/" target="_blank">Educell Moodle</a>
+  </p>
+   <p>
+    <a href="http://ec2-52-88-223-6.us-west-2.compute.amazonaws.com:8080" target="_blank">Educell Kolibri</a>
+  </p>
 
   <h3>Ghana Make A Difference</h3>
 
