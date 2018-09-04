@@ -59,7 +59,7 @@ We install the technology, train the teachers, and provide the instructional mat
 
       <div class="image_text_row">
         <div class="image_row">
-        <img src={cade} width="100%" />
+        <img src={cade} width="100%" />*
         </div>
 
         <p class="text_row">
@@ -98,6 +98,9 @@ We install the technology, train the teachers, and provide the instructional mat
       </div>
     </div>
         
+     	<footer>
+    						<p className="popfooter">*Photo credit #travellingshepards</p>
+    					</footer>
         
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
       </article>

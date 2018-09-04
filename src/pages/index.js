@@ -85,7 +85,7 @@ export default class Index extends React.Component {
                 <Contact class={this.state.modal.contact} endTransitionHandler={(name) => this.endArticleTransition(name)} />
               </div>
     					<footer id={footerId} className={footerClass}>
-    						<p className="copyright">&copy; Educell. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+    						<p className="copyright">&copy; Educell. Design: <a href="https://html5up.net">HTML5 UP</a>. </p>
     					</footer>
     			</div>
     			<div id="bg"></div>

@@ -46,3 +46,11 @@ min-width: 100px;
   max-width: 70vw;
   padding: 10px;
 }
+
+.popfooter {
+			letter-spacing: 0.2rem;
+			font-size: 0.6rem;
+			opacity: 0.75;
+			margin-bottom: 0;
+			text-transform: uppercase;
+		}
