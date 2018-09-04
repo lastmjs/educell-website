@@ -34,7 +34,6 @@ export class Header extends React.Component{
             <li><a href="#contact" onClick={() => this.props.transitionHandler('contact')}>Contact</a></li>
           </ul>
         </nav>
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125080982-1"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-125080982-1'); </script>
       </header>
     );
   }
