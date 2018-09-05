@@ -25,17 +25,17 @@ export class About extends React.Component{
     return (
       <article id="about" className={aboutClass}>
         <h2 className="major">About</h2>
-    <h3>Guiding Beliefs</h3>
+    <h3>What We Do</h3>
 
 <p>
-The Creator gave each of us life on this Earth so that we could learn to live happily, as He does.
-Our capacity for happiness increases with our capacity to love.
-Our capacity to love increases as we learn to see things as they really are, and as we acquire the power to act accordingly.
-Gaining vision and power is the heart of education.
+We help schools and teachers in Africa to use low-cost technology and free instructional materials to improve outcomes in their classrooms. 
+  Our partner-teachers leverage digital assessments to instantly understand student needs, and multimedia instructional materials to personalize instruction for every student. 
+  We install the technology, train the teachers, and provide the instructional material. 
+  Check out our <a href="/#projects">Projects</a> page to see some examples of our work.
 </p>
 
 
-<h3>Mission</h3>
+<h3>Our Mission</h3>
 
 <p>
 Our mission is to provide every child on this earth with an opportunity to gain knowledge about the world,
@@ -43,13 +43,13 @@ power to act in it,
 and desire to be self-reliant and compassionate.
 </p>
 
-<h3>Activities</h3>
+<h3>Guiding Beliefs</h3>
 
 <p>
-We help teachers in Africa use low-cost technology to improve outcomes in their classrooms.
-Our partner-teachers leverage digital assessments to instantly understand student needs,
-and multi-media instructional materials to personalize instruction for every student.
-We install the technology, train the teachers, and provide the instructional material.
+The Creator gave each of us life on this Earth so that we could learn to live happily, as He does. 
+  Our capacity for happiness increases with our capacity to love. 
+  Our capacity to love increases as we learn to see things as they really are, and as we acquire the power to act accordingly. 
+  Gaining vision and power is the heart of education.
 </p>
 
 <h3>Team</h3>
