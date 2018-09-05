@@ -1,8 +1,12 @@
 import React from 'react';
 import classNames from 'classnames';
 // import classPhoto from '../images/class.jpg'
-import resource1img from '../images/resource1img';
-import resource2img from '../images/resource2img';
+import resource1img from '../images/resource1img.png';
+import resource2img from '../images/resource2img.png';
+import resource1img from '../images/resource3img.png';
+import resource2img from '../images/resource4img.png';
+import resource1img from '../images/resource5img.png';
+import resource2img from '../images/resource6img.png';
 
 export class Resources extends React.Component{
 
