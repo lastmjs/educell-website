@@ -31,7 +31,7 @@ export class About extends React.Component{
 We help schools and teachers in Africa to use low-cost technology and free instructional materials to improve outcomes in their classrooms. 
   Our partner-teachers leverage digital assessments to instantly understand student needs, and multimedia instructional materials to personalize instruction for every student. 
   We install the technology, train the teachers, and provide the instructional material. 
-  Check out our <a href="/#projects">Projects</a> page to see some examples of our work.
+  Check out our <a href="educell.org/#projects">Projects</a> page to see some examples of our work.
 </p>
 
 
