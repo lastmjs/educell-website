@@ -22,7 +22,7 @@ export class Contact extends React.Component{
           If you want to discuss solutions for your students, or you have any other questions, you can contact us by:</p>
         <p>Email: <a href="mailto:info@educell.org" target="_blank"> info@educell.org</a></p>
         <p>Phone: <a href="tel:+1801-682-3795">801-682-3795</a> (within the United States)</p>
-        <p>WhatsApp: <a href="htpps://wa.me/18016823795>+1 801-682-3795</a></p>
+        <p>WhatsApp: <a href="htpps://wa.me/18016823795">+1 801-682-3795</a></p>
           
         <div onClick={() => this.props.endTransitionHandler('contact')} className="close">Close</div>
       </article>
