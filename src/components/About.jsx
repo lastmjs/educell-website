@@ -99,7 +99,7 @@ We install the technology, train the teachers, and provide the instructional mat
     </div>
         
      	<footer>
-    						<p className="popfooter">*Photo credit #travellingshepards</p>
+    						<p className="popfooter">*Photo credit #TravelingShepards</p>
     					</footer>
         
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
