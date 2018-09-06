@@ -32,11 +32,11 @@ export class Resources extends React.Component{
     <div class="image_text_column">
       <h3> Technology </h3>
       
-    <h4>Network</h4>
+      <h4>Network</h4>
 
       <div class="image_text_row">
         <div class="image_row">
-        <img src={resource1img} width="100%" />*
+          <img src={resource1img} width="100%" />*
         </div>
 
         <p class="text_row">
@@ -48,14 +48,13 @@ export class Resources extends React.Component{
 
       <div class="image_text_row">
         <div class="image_row">
-        <img src={resource2img} width="100%" />
+          <img src={resource2img} width="100%" />
         </div>
 
         <p class="text_row">
           Select devices.
         </p>
       </div>
-    </div>
         
             <h4>Software</h4>
 
