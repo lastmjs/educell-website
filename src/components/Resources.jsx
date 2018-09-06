@@ -94,7 +94,6 @@ export class Resources extends React.Component{
           Select devices.
         </p>
       </div>
-    </div>
         
             <h4>Math Teaching Materials</h4>
 
