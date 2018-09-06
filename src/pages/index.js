@@ -83,7 +83,7 @@ export default class Index extends React.Component {
     					<div id={mainId} className={mainClass}>
                 <About class={this.state.modal.about} endTransitionHandler={(name) => this.endArticleTransition(name)} />
                 <Projects class={this.state.modal.projects} endTransitionHandler={(name) => this.endArticleTransition(name)} />
-                <Resources class={this.state.modal.projects} endTransitionHandler={(name) => this.endArticleTransition(name)} /> 
+                <Resources class={this.state.modal.resources} endTransitionHandler={(name) => this.endArticleTransition(name)} /> 
                 <Donate class={this.state.modal.donate} endTransitionHandler={(name) => this.endArticleTransition(name)} />
                 <Contact class={this.state.modal.contact} endTransitionHandler={(name) => this.endArticleTransition(name)} />
               </div>
