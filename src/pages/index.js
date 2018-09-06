@@ -27,6 +27,7 @@ export default class Index extends React.Component {
         about: false,
         projects: false,
         contact: false,
+        resources: false,
       }
     }
   }
