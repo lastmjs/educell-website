@@ -99,7 +99,7 @@ The Creator gave each of us life on this Earth so that we could learn to live ha
     </div>
         
      	<footer>
-    						<p className="popfooter">*Photo credit #travellingshepards</p>
+    						<p className="popfooter">*Photo credit #TravelingShepards</p>
     					</footer>
         
         <div onClick={() => this.props.endTransitionHandler('about')} className="close">Close</div>
