@@ -30,6 +30,7 @@ export class Header extends React.Component{
           <ul>
           <li><a href="#about" onClick={() => this.props.transitionHandler('about')}>About</a></li>
             <li><a href="#projects" onClick={() => this.props.transitionHandler('projects')}>Projects</a></li>
+            <li><a href="#resources" onClick={() => this.props.transitionHandler('resources')}>Resources</a></li>
             <li><a href="#donate" onClick={() => this.props.transitionHandler('donate')}>Donate</a></li>
             <li><a href="#contact" onClick={() => this.props.transitionHandler('contact')}>Contact</a></li>
           </ul>
