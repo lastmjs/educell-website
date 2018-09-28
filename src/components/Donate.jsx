@@ -23,6 +23,7 @@ export class Donate extends React.Component{
         Please contact us at <a href="mailto:info@educell.org" target="_blank"> info@educell.org</a> to learn how you can make a difference now.</p>
         <p> <a href='../501-c-3-approved.pdf' target="_blank">501(c)(3) determination letter</a></p>
         <p> <a href='../educell-articles.pdf' target="_blank">Articles of incorporation</a></p>
+         <p> <a href='../solicitation.pdf' target="_blank">Solicitation Permit</a></p>
         <div onClick={() => this.props.endTransitionHandler('donate')} className="close">Close</div>
       </article>
     );
